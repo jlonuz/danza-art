@@ -1,16 +1,17 @@
 .escuela {
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 25px;
 	font-size:25px;
 	color:#1B1D3D;
 	font-family: 'Raleway';
 	font-weight: 400;
-	height:100px;
+	height:50px;
 }
 .menu {
 	position:relative;
 	left:390px;
-	bottom:30px;
+	bottom:10px;
 }
 .menu li {
 	padding-right: 15px;
@@ -27,7 +28,7 @@
 }
 .caja-nav {
 	width:600px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 
 }
 .banner {
@@ -116,12 +117,17 @@
 }
 .profe1	{
 	background: url(../img/instructor_4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	border:1px solid gray;
 	height:300px;
 	width:100%;
+
 }
 .profe2 {
 	background: url(../img/profesor_9.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	border:1px solid gray;
 	height:300px;
 	width:100%;
