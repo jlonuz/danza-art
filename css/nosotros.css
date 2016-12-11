@@ -1,1 +1,139 @@
-/* Inserta tu codigo aqui */
+.title-nosotros {
+	color:#1C2557;
+	font-family: 'Raleway';
+	margin-bottom: 15px;
+}
+.title-nosotros a {
+	color:#1C2557;
+}
+.title-nosotros a:hover {
+	text-decoration: none;
+}
+.fondo-profes {
+	background-image: url(../img/dance_7.jpg);
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height:450px;
+}
+
+.caja {
+	background-color: rgba(0, 0, 0, 0.5);
+	height:250px;
+	padding: 20px 70px;
+	margin: 100px 300px;
+}
+
+.nosotros {
+	font-family: 'Raleway';
+	color:white;
+	opacity: 0.8;
+}
+
+.nosotros1 {
+	font-family: 'Raleway';
+	color:gray;
+	opacity: 0.8;
+	padding-top: 15px;
+}
+
+.cubos {
+	background-image:url(../img/cubes.png);
+	height:300px; 
+}
+
+.pilar {
+	font-family: 'Raleway';
+	margin-top:50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DCDBE6;
+	color:gray;
+	opacity: 0.9;
+}
+.parr-pilar {
+	font-family: 'Raleway';
+	font-size: 13px;
+	color:gray;
+	padding-top: 20px;
+	opacity:0.7;
+}
+
+.style-int {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.caja-profes {
+	margin-bottom: 50px;
+	font-family: 'Raleway';
+}
+.profes-int {
+	width: 200px;
+	height:200px;
+}
+
+.cubos1 {
+	background-image:url(../img/cubes.png);
+	height:200px; 
+}
+.frase {
+	font-family: 'Raleway';
+	padding-top: 50px;
+	font-size: 30px;
+	color:gray;
+}
+
+@media (max-width : 320px){
+	.title-nosotros {
+		font-size:25px;
+	}	
+	
+	.menu  {
+		padding-right: 15px;
+		margin-bottom: 5px;
+	}
+	
+	.caja {
+		height:300px;
+		margin: 70px 25px;
+		padding: 10px;
+	}	
+
+	.nosotros {
+		font-size: 20px;
+	}
+
+	.nosotros1 {
+		padding:10px;
+	}
+
+	.cubos {
+		height:600px;
+	}
+	.pilar {
+		margin-top: 15px;
+		padding-top: 10px;
+	}
+	.parr-pilar {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.style-int {
+		font-size: 25px;
+	}
+	.frase {
+		font-size: 15px;
+	}
+
+	.inputs {
+	margin-left: 50px;
+	margin-top: 10px;
+	width:70%;
+	font-family: 'Raleway',FontAwesome;
+}
+	.btn-enviar {
+	margin-left: 50px;
+	padding:10px 75px;
+	text-align: center;
+	}
+}

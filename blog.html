@@ -2,14 +2,132 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 	<title>Escuela de Danza</title>
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/nosotros.css">
+	<link rel="stylesheet" type="text/css" href="css/clases.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-12 col-ms-12 col-xs-12 text-center">
+				<h1 class="title-nosotros"><a href="index.html">ESCUELA DE DANZA</a></h1>
+				<div class="margen-ul text-center">
+					<ul class="text-center">
+						<li class="menu"><a href="nosotros.html">Nosotros</a></li>
+						<li class="menu"><a href="clases.html">Clases</a></li>
+						<li class="menu"><a href="blog.html">Blog</a></li>
+						<li class="menu"><a href="#contacto">Contacto</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="fondo5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3 class="oferta">BLOG</h3>
+				</div>
+			</div>
+			<div class="row fondo6">
+				<div class="col-md-3 sin-padding">
+					<img class="foto-blog" src="img/blog1.jpg" alt="">
+				</div>		
+				<div class="col-md-9 sin-padding">
+					<div class="ayuda">
+						<h5>TÍTULO DEL ARTÍCULO</h5>
+						<p class="style-blog"><em>Fecha</em></p>
+						<p class="style-blog">Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<a class="ver-mas" href="">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="row fondo6">
+				<div class="col-md-3 sin-padding">
+					<img class="foto-blog" src="img/profesor_5.jpg" alt="">
+				</div>
+				<div class="col-md-9 sin-padding">
+					<div class="ayuda">
+						<h5>TÍTULO DEL ARTÍCULO</h5>
+						<p class="style-blog"><em>Fecha</em></p>
+						<p class="style-blog">Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<a class="ver-mas" href="">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="row fondo6">
+				<div class="col-md-3 sin-padding">
+					<img class="foto-blog" src="img/instructor_1.jpg" alt="">
+				</div>
+				<div class="col-md-9 sin-padding">
+					<div class="ayuda">
+						<h5>TÍTULO DEL ARTÍCULO</h5>
+						<p class="style-blog"><em>Fecha</em></p>
+						<p class="style-blog">Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<a class="ver-mas" href="">Ver más</a>
+					</div>
+				</div>		
+			</div>
+		</div>	
+	</section>
+	<section id="contacto" class="container-fluid fondo-ballet">
+		<div class="row">
+			<div class="col-xs-12 col-ms-6 col-md-6">
+				<h2 class="contactanos">Contáctanos</h2>
+				<input type="text"placeholder="&#xf007;  Nombre" class="form-control inputs">
+				<input type="text"placeholder="&#xf0e0;  Email" class="form-control inputs">
+				<textarea placeholder="&#xf040;  Mensaje"class="form-control inputs" rows="5"></textarea>
+				<a href="#" class="btn-enviar">ENVIAR</a>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid fondo4">
+		<footer>
+			<p class="parrafo-footer">©Escuela de danza. Todos los derecho reservados.</p>
+		</footer>
+	</section>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script>
+		$('a[href*="#"]:not([href="#"])').click(function() {
+		  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    	var target = $(this.hash);
+    	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    	if (target.length) {
+      	$('html, body').animate({scrollTop: target.offset().top
+      	}, 1000);
+   			   	return false;
+    			}
+  			}	
+		});
+	</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
 </body>
 </html>

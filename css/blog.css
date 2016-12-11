@@ -1,1 +1,64 @@
-/* Inserta tu codigo aqui */
+.foto-blog {
+	width: 250px;
+	height: 200px;
+}
+
+.sin-padding{
+	padding:0;
+}
+
+.fondo6 {
+	background-color: #DFDEE4;
+	margin:auto;
+	margin-bottom: 30px;
+	position:relative;
+	
+}
+.ayuda {
+	display:inline-block;
+	width:700px;
+	height:200px;
+	position:relative;
+	top:20px;
+	
+
+}
+
+h5 {
+	color:black;
+}
+.style-blog {
+	font-family: 'Raleway';
+	font-size: 13px;
+	padding-bottom:5px;
+}
+	
+.ver-mas {
+	text-decoration: none;
+	color:gray;
+	background-color: #1C2557;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.ver-mas:hover {
+	text-decoration: none;
+}
+
+@media (max-width : 320px){
+	.foto-blog {
+		margin:20px;
+		margin-bottom: 0;
+	}
+
+	.ayuda {
+		height:250px;
+		top:10px;
+		padding-left:20px;
+		padding-right: 20px;
+		width:280px;
+	}
+	.style-blog {
+		padding-bottom: 15px;
+	}
+}

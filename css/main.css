@@ -12,8 +12,13 @@
 	font-family: 'Raleway';
 	margin-bottom: 30px;
 }
+.margen-ul {
+	padding-right: 35px;
+}
 .menu a {
 	color:gray;
+	margin-left: 30px;
+
 }
 .menu a:hover {
 	text-decoration: none;
@@ -235,6 +240,7 @@ textarea {
 }
 .btn-enviar:hover {
 	text-decoration: none;
+	
 }
 .btn-enviar:visited {
 	text-transform: none;
@@ -252,22 +258,41 @@ textarea {
 
 
 
+/*Aqui empiezan los medias */
 
+@media (max-width : 320px) {
+	.title {
+		font-size:25px;
+	}
 
+	.menu  {
+		padding-right: 15px;
+		margin-bottom: 5px;
+	}
 
-
-
-@media (max-width : 479px) {
 	.box {
 		visibility:visible;
 		display:block;
 	}
+	
+	.subtitle {
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+
+	.descripcion {
+		margin-left: 50px;
+	}
+
 	.desaparece {
 		display:none;
 	}
+
 	.inscribete {
 		background-color: #1C2557;
+		margin-left: 70px;
 	}
+
 	.textura-2 {
 		font-size:15px;
 	}
@@ -291,6 +316,11 @@ textarea {
 	.ubicacion2 {
 		margin-left: 20px;
 	}
+
+	.contactanos {
+		margin-left: 40px;
+	}
+
 	.inputs {
 	margin-left: 50px;
 	margin-top: 10px;
@@ -299,8 +329,13 @@ textarea {
 }
 	.btn-enviar {
 	margin-left: 50px;
-	padding:20px 100px;
+	padding:10px 75px;
 	text-align: center;
 	}
+
+	.parrafo-footer {
+		font-size: 10px;
+	}
+
 }	
 
